@@ -3,7 +3,7 @@ export default class Pencil {
     this.durability = durability
     this.maxDurability = durability;
     this.length = length;
-    this.eraserDurability = eraserDurability
+    this.eraserDurability = eraserDurability;
   }
 
   getPencilDurability() {
@@ -11,7 +11,7 @@ export default class Pencil {
   }
 
   getPencilLength() {
-    return this.length
+    return this.length;
   }
 
   getEraserDurability() {
